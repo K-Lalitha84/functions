@@ -39,3 +39,25 @@ hi("Doremon")
 output::
 Hello Sinchan
 Hello Doremon
+
+code--5
+'''write a fuction that carries and return all the arthmetic operations
+to the main code(+,-,*)
+pass the constraints,where all the constrints must be caliculated 
+accordigly as return values to print  by calling the same function
+'''
+def ao(x,y):
+    return x+y,x-y,x*y
+x=int(input("enter a values:"))
+y=int(input("enter a another values:"))
+tot,diff,prod=ao(x,y)
+print("sum:",tot)
+print("sub:",diff)
+print("mul:",prod)
+
+output::
+enter a values: 10
+enter a another values: 5
+sum: 15
+sub: 5
+mul: 50
